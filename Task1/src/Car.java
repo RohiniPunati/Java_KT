@@ -26,7 +26,7 @@ public class Car {
 		this.capacity=capacity;
 		this.mileage=mileage;
 		count++;
-//		System.out.println("modelNumber : "+modelNumber+",brand : "+brand+", Price : "+price+", speed : "+speed+",capacity	: "+capacity+", mileage : "+mileage);
+
 	}
 	void show(){
 		if(modelNumber!=null ){
