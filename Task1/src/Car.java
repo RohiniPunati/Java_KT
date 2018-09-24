@@ -13,7 +13,7 @@ public class Car {
 		count++;
 	}
 	Car(String modelNumber,String brand,double price){
-		this.modelNumber=modelNumber;`
+		this.modelNumber=modelNumber;
 		this.brand=brand;
 		this.price=price;
 		count++;
@@ -47,6 +47,7 @@ public class Car {
 		if(mileage!=null){
 			System.out.println("Mileage : "+mileage);
 		}
+
 	}
 	    
 	public static void main(String[] args) {
@@ -61,6 +62,10 @@ public class Car {
 		car2.show();
 		Car car3=new Car("2018MUSTANG","Ford",1898793.40,"300 KMPH",3.5f,"12 PL");
 		car3.show();
-		System.out.println("Objects count = "+count);	
-	}	
+		System.out.println("Objects count = "+count);
+
+		
+	}
+
+	
 }
